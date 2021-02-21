@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Shared\Perseus.Shared.Infrastructure\Perseus.Shared.Infrastructure.csproj" />
+    <ProjectReference Include="..\Perseus.Modules.DataProcessor.Core\Perseus.Modules.DataProcessor.Core.csproj" />
+  </ItemGroup>
+
+</Project>
