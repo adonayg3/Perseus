@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Modules\Perseus.Modules.DataProcessor.Api\Perseus.Modules.DataProcessor.Api.csproj" />
+    <ProjectReference Include="..\..\Modules\DataProcessor\Perseus.Modules.DataProcessor.Api\Perseus.Modules.DataProcessor.Api.csproj" />
   </ItemGroup>
-
+  
 </Project>
