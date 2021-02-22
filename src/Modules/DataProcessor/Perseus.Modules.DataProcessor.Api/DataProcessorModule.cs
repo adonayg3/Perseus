@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
+using Perseus.Modules.DataProcessor.Core;
 
 namespace Perseus.Modules.DataProcessor.Api
 {
@@ -7,6 +8,7 @@ namespace Perseus.Modules.DataProcessor.Api
     {
         public static IServiceCollection AddDataProcessorModule(this IServiceCollection services)
         {
+            services.AddCore();
             return services;
         }
 

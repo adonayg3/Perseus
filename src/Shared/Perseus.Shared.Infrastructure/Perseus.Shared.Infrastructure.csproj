@@ -9,6 +9,6 @@
   </ItemGroup>
   
   <ItemGroup>
-    <ProjectReference Include="..\Perseus.Shared.Abstaractions\Perseus.Shared.Abstaractions.csproj" />
+    <ProjectReference Include="..\Perseus.Shared.Abstractions\Perseus.Shared.Abstractions.csproj" />
   </ItemGroup>
 </Project>

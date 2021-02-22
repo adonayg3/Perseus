@@ -5,8 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Shared\Perseus.Shared.Abstaractions\Perseus.Shared.Abstaractions.csproj" />
+    <ProjectReference Include="..\..\..\Shared\Perseus.Shared.Abstractions\Perseus.Shared.Abstractions.csproj" />
     <ProjectReference Include="..\..\..\Shared\Perseus.Shared.Infrastructure\Perseus.Shared.Infrastructure.csproj" />
+    <ProjectReference Include="..\Perseus.Modules.DataProcessor.Core\Perseus.Modules.DataProcessor.Core.csproj" />
   </ItemGroup>
   
 

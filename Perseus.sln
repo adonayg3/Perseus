@@ -13,7 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{669F1E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Perseus.Shared.Infrastructure", "src\Shared\Perseus.Shared.Infrastructure\Perseus.Shared.Infrastructure.csproj", "{8A635ECB-3BC2-4B8C-8D8E-FE7C8BB77CE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Perseus.Shared.Abstaractions", "src\Shared\Perseus.Shared.Abstaractions\Perseus.Shared.Abstaractions.csproj", "{2D8DB44C-C1B3-4C20-B3EB-E1F7656DC500}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Perseus.Shared.Abstractions", "src\Shared\Perseus.Shared.Abstractions\Perseus.Shared.Abstractions.csproj", "{2D8DB44C-C1B3-4C20-B3EB-E1F7656DC500}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C4B805F1-B7F6-4678-9E28-546C44F52CA5}"
 EndProject
