@@ -1,9 +1,9 @@
 using Microsoft.Extensions.DependencyInjection;
-using Perseus.Modules.Asset.Core.DAL.Repositories;
-using Perseus.Modules.Asset.Core.Repositories;
-using Perseus.Modules.Asset.Core.Services;
+using Perseus.Modules.Assets.Core.DAL.Repositories;
+using Perseus.Modules.Assets.Core.Repositories;
+using Perseus.Modules.Assets.Core.Services;
 
-namespace Perseus.Modules.Asset.Core
+namespace Perseus.Modules.Assets.Core
 {
     public static class Extensions
     {

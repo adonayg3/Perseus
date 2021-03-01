@@ -1,8 +1,8 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Perseus.Modules.Asset.Core.Entities;
+using Perseus.Modules.Assets.Core.Entities;
 
-namespace Perseus.Modules.Asset.Core.Repositories
+namespace Perseus.Modules.Assets.Core.Repositories
 {
     public interface IAssetRepository
     {

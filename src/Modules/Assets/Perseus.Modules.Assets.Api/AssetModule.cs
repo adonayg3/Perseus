@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
-using Perseus.Modules.Asset.Core;
+using Perseus.Modules.Assets.Core;
 
-namespace Perseus.Modules.Asset.Api
+namespace Perseus.Modules.Assets.Api
 {
     public static class AssetModule
     {

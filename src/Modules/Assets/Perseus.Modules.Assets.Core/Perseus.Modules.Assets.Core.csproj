@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>Perseus.Modules.Asset.Core</RootNamespace>
+    <RootNamespace>Perseus.Modules.Assets.Core</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

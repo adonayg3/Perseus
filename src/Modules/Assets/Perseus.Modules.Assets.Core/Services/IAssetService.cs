@@ -1,8 +1,8 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Perseus.Modules.Asset.Core.DTO;
+using Perseus.Modules.Assets.Core.DTO;
 
-namespace Perseus.Modules.Asset.Core.Services
+namespace Perseus.Modules.Assets.Core.Services
 {
     public interface IAssetService
     {

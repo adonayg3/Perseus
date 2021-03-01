@@ -1,10 +1,10 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Perseus.Modules.Asset.Core.DTO;
-using Perseus.Modules.Asset.Core.Services;
+using Perseus.Modules.Assets.Core.DTO;
+using Perseus.Modules.Assets.Core.Services;
 
-namespace Perseus.Modules.Asset.Api.Controllers
+namespace Perseus.Modules.Assets.Api.Controllers
 {
     internal class AssetsController : BaseController
     {

@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace Perseus.Modules.Asset.Api.Controllers
+namespace Perseus.Modules.Assets.Api.Controllers
 {
     [Route(BasePath)]
     internal class HomeController : BaseController

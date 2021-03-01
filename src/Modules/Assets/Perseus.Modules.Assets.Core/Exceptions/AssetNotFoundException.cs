@@ -1,6 +1,6 @@
 using Perseus.Shared.Abstractions.Exceptions;
 
-namespace Perseus.Modules.Asset.Core.Exceptions
+namespace Perseus.Modules.Assets.Core.Exceptions
 {
     internal class AssetNotFoundException : CustomException
     {
