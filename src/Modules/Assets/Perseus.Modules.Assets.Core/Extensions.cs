@@ -1,4 +1,5 @@
 using Microsoft.Extensions.DependencyInjection;
+using Perseus.Modules.Assets.Core.DAL;
 using Perseus.Modules.Assets.Core.DAL.Repositories;
 using Perseus.Modules.Assets.Core.Repositories;
 using Perseus.Modules.Assets.Core.Services;
@@ -11,7 +12,7 @@ namespace Perseus.Modules.Assets.Core
         {
             services.AddScoped<IAssetService, AssetService>();
             services.AddSingleton<IAssetRepository, InMemoryAssetRepository>();
-
+            services.AddDatabase();
             return services;
         }
     }

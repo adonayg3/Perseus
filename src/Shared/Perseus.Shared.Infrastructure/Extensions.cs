@@ -1,8 +1,10 @@
 using System.Runtime.CompilerServices;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Perseus.Shared.Infrastructure.Api;
 using Perseus.Shared.Infrastructure.Exceptions;
+using Perseus.Shared.Infrastructure.Postgres;
 
 [assembly:InternalsVisibleTo("Perseus.Bootstrapper")]
 namespace Perseus.Shared.Infrastructure
@@ -17,6 +19,7 @@ namespace Perseus.Shared.Infrastructure
                     manager.FeatureProviders.Add(new InternalControllerFeatureProvider());
                 });
             services.AddSingleton<ErrorHandlerMiddleware>();
+            services.AddPostgres();
             return services;
         }
 
@@ -24,6 +27,16 @@ namespace Perseus.Shared.Infrastructure
         {
             app.UseMiddleware<ErrorHandlerMiddleware>();
             return app;
+        }
+
+        public static T GetOptions<T>(this IServiceCollection services, string sectionName) where T : new()
+        {
+            using var serviceProvider = services.BuildServiceProvider();
+            var configuration = serviceProvider.GetRequiredService<IConfiguration>();
+            var section = configuration.GetSection(sectionName);
+            var options = new T();
+            section.Bind(options);
+            return options;
         }
     }
 }

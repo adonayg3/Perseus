@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
-using Perseus.Modules.Asset.Api;
+using Perseus.Modules.Assets.Api;
 using Perseus.Shared.Infrastructure;
 
 namespace Perseus.Bootstrapper
