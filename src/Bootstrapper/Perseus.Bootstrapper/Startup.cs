@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
-using Perseus.Modules.DataProcessor.Api;
+using Perseus.Modules.Asset.Api;
 using Perseus.Shared.Infrastructure;
 
 namespace Perseus.Bootstrapper
@@ -14,7 +14,7 @@ namespace Perseus.Bootstrapper
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddInfrastructure();
-            services.AddDataProcessorModule();
+            services.AddAssetModule();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -22,7 +22,7 @@ namespace Perseus.Bootstrapper
         {
             app.UseInfrastructure();
             app.UseRouting();
-            app.UseDataProcessorModule();
+            app.UseAssetModule();
 
             app.UseEndpoints(endpoints =>
             {

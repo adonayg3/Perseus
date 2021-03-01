@@ -7,7 +7,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\..\Shared\Perseus.Shared.Abstractions\Perseus.Shared.Abstractions.csproj" />
     <ProjectReference Include="..\..\..\Shared\Perseus.Shared.Infrastructure\Perseus.Shared.Infrastructure.csproj" />
-    <ProjectReference Include="..\Perseus.Modules.DataProcessor.Core\Perseus.Modules.DataProcessor.Core.csproj" />
+    <ProjectReference Include="..\Perseus.Modules.Asset.Core\Perseus.Modules.Asset.Core.csproj" />
   </ItemGroup>
   
 

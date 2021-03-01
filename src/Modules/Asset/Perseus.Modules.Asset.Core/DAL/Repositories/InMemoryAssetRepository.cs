@@ -1,10 +1,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Perseus.Modules.DataProcessor.Core.Entities;
-using Perseus.Modules.DataProcessor.Core.Repositories;
+using Perseus.Modules.Asset.Core.Entities;
+using Perseus.Modules.Asset.Core.Repositories;
 
-namespace Perseus.Modules.DataProcessor.Core.DAL.Repositories
+namespace Perseus.Modules.Asset.Core.DAL.Repositories
 {
     internal class InMemoryAssetRepository : IAssetRepository
     {

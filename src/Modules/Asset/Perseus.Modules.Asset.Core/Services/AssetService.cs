@@ -1,12 +1,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Perseus.Modules.DataProcessor.Core.DTO;
-using Perseus.Modules.DataProcessor.Core.Entities;
-using Perseus.Modules.DataProcessor.Core.Exceptions;
-using Perseus.Modules.DataProcessor.Core.Repositories;
+using Perseus.Modules.Asset.Core.DTO;
+using Perseus.Modules.Asset.Core.Entities;
+using Perseus.Modules.Asset.Core.Exceptions;
+using Perseus.Modules.Asset.Core.Repositories;
 
-namespace Perseus.Modules.DataProcessor.Core.Services
+namespace Perseus.Modules.Asset.Core.Services
 {
     public class AssetService : IAssetService
     {

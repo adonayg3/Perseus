@@ -21,11 +21,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Perseus.Tests.EndToEnd", "t
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{CF684F81-2F5D-49BB-ADF9-77AF303260D9}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataProcessor", "DataProcessor", "{C3F523F2-684E-47DF-ACBE-84868D15FDB3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Asset", "Asset", "{C3F523F2-684E-47DF-ACBE-84868D15FDB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Perseus.Modules.DataProcessor.Api", "src\Modules\DataProcessor\Perseus.Modules.DataProcessor.Api\Perseus.Modules.DataProcessor.Api.csproj", "{ECD14D99-88BE-4ACC-BD26-ACB6E7E09903}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Perseus.Modules.Asset.Api", "src\Modules\Asset\Perseus.Modules.Asset.Api\Perseus.Modules.Asset.Api.csproj", "{ECD14D99-88BE-4ACC-BD26-ACB6E7E09903}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Perseus.Modules.DataProcessor.Core", "src\Modules\DataProcessor\Perseus.Modules.DataProcessor.Core\Perseus.Modules.DataProcessor.Core.csproj", "{5C020F9D-4C09-45D8-9974-0CC1FE197348}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Perseus.Modules.Asset.Core", "src\Modules\Asset\Perseus.Modules.Asset.Core\Perseus.Modules.Asset.Core.csproj", "{5C020F9D-4C09-45D8-9974-0CC1FE197348}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace Perseus.Modules.DataProcessor.Core.DTO
+namespace Perseus.Modules.Asset.Core.DTO
 {
     public class AssetDto
     {

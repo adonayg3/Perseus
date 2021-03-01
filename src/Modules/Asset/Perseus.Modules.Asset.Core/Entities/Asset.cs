@@ -1,4 +1,4 @@
-namespace Perseus.Modules.DataProcessor.Core.Entities
+namespace Perseus.Modules.Asset.Core.Entities
 {
     public class Asset
     {

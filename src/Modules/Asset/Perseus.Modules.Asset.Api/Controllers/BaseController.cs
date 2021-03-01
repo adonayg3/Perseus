@@ -1,11 +1,11 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace Perseus.Modules.DataProcessor.Api.Controllers
+namespace Perseus.Modules.Asset.Api.Controllers
 {
     [ApiController]
     [Route(BasePath + "/[controller]")]
     internal abstract class BaseController : ControllerBase
     {
-        protected const string BasePath = "DataProcessor-module";
+        protected const string BasePath = "Asset-module";
     }
 }
