@@ -21,6 +21,7 @@ namespace Perseus.Modules.Assets.Core.Services
             var assets = await _assetRepository.GetAllAsync();
             return assets.Select(asset => new AssetDto
             {
+                Id = asset.Id,
                 Symbol = asset.Symbol,
                 Name = asset.Name
             }).ToList();
